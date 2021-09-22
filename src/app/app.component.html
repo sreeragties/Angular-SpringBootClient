@@ -1,0 +1,23 @@
+<mat-toolbar color="primary" class="navbar">
+    <div>Employees</div>
+    <div>
+        <a mat-button disableRipple routerLink="employees" routerLinkActive="active">View All </a>
+        <a mat-button disableRipple routerLink="create-employee" routerLinkActive="active">Add Employee </a>
+      
+    </div>
+  </mat-toolbar>
+
+<div class="mat-headline text-center">{{title}}</div>
+<div class ="container">
+    <router-outlet></router-outlet>
+</div>
+
+<!-- <footer class="footer">
+
+   
+    <div class="footer-copyright text-center py-3" >Employee:
+      <a href="https://mdbootstrap.com/"> www.test.com</a>
+    </div>
+    
+  
+  </footer> -->
